@@ -35,34 +35,82 @@ body {
   ;
 }
 
-.hero__main{
-  height:100%;
+.hero__main {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap-reverse;
 }
 
-.hero__img{
-width: 45%;
-text-align: center;
-margin: 0;
+.hero__img {
+  width: 45%;
+  text-align: center;
+  margin: 0;
 }
 
-.hero__picture{
+.hero__picture {
   max-width: 80%;
 }
 
-.hero__texts{
+.hero__texts {
   width: 45%;
   color: #fff;
 }
 
-.hero__title{
+.hero__title {
   font-size: 4rem;
 }
 
-.hero__copy{
+.hero__copy {
   font-size: 1.5rem;
   font-weight: 300;
 }
+
+/*About section*/
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 40px;
+  color: var(--color-primary);
+  text-align: var(--align-title);
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about__img {
+  width: 45%;
+  text-align: center;
+  margin: 0;
+}
+
+.about__picture {
+  max-width: 80%;
+}
+
+.about__texts {
+  width: 50%;
+  --align-title: left;
+}
+
+.about__paragraph{
+  line-height: 1.5;
+}
+
+.about__cta{
+  display: inline-block;
+  margin-top: 20px;
+  background: var(--color-primary);
+  padding: 20px 40px;
+  border-radius: 30px;
+color: #fff;
+text-decoration: none;
+}
+
+/*seccion cards*/
